@@ -4,7 +4,7 @@ pipeline {
     
     stage("Build"){
       steps {
-        echo "Build API project using npm build or Bazel if a more advanced build system is needed. Test"
+        echo "Build API project using npm build or Bazel if a more advanced build system is needed."
       }
     }
 
